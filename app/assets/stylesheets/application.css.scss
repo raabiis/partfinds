@@ -17,49 +17,35 @@
   @import 'bootstrap-sprockets';
   @import 'bootstrap';
   
- .navbar, .home-callout {
+  // Typography Styles
+h1, h2, h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 100;
+}
+// Background Gradient
+.navbar, .home-callout {
   background: #a73737;  /* fallback for old browsers */
   background: -webkit-linear-gradient(left, #7a2828, #a73737);
   background: -moz-linear-gradient(left, #7a2828, #a73737);
   background: -o-linear-gradient(left, #7a2828, #a73737);
   background: linear-gradient(to right, #7a2828, #a73737);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }
-    
-  .navbar {
+}
+// Nav Styles
+.navbar {
   border: none;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  &:hover {
+    color: white;
+    opacity: 0.75;
   }
-
-  .home-callout {
+}
+// Home Page Styles
+.home-callout {
   color: white;
   margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 50px;
-  }
-  
-  h1, h2, h3 {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 100;
-  }
-  
-  .navbar-brand {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 400;
-  }
-  
-  .navbar-default .navbar-brand {
-  color: white;
-  }
-  
-  .navbar-default .navbar-nav > li > a {
-  color: white;
-  }
-  
-  .navbar-default .navbar-brand:hover {
-  color: white;
-  opacity: 0.75;
-  }
-  
-  .navbar-default .navbar-nav > li > a:hover {
-  color: white;
-  opacity: 0.75;
-  }
+}
