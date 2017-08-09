@@ -14,10 +14,29 @@
    *= require_self
    */
   
-  @import "bootstrap-sprockets";
-  @import "bootstrap";
+  @import 'bootstrap-sprockets';
+  @import 'bootstrap';
   
+  body, .navbar {
+  background: #a73737;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(left, #7a2828, #a73737);
+  background: -moz-linear-gradient(left, #7a2828, #a73737);
+  background: -o-linear-gradient(left, #7a2828, #a73737);
+  background: linear-gradient(to right, #7a2828, #a73737);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    
+  .navbar {
+  border: none;
+  }
+
   h1, h2, h3 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 100;
   }
+  
+  .navbar-brand {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+  }
+  
+  
