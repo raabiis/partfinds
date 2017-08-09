@@ -28,14 +28,14 @@
   .navbar {
   border: none;
   }
-  
+
   .home-callout {
   color: white;
   margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 50px;
   }
-
+  
   h1, h2, h3 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 100;
@@ -46,4 +46,20 @@
     font-weight: 400;
   }
   
+  .navbar-default .navbar-brand {
+  color: white;
+  }
   
+  .navbar-default .navbar-nav > li > a {
+  color: white;
+  }
+  
+  .navbar-default .navbar-brand:hover {
+  color: white;
+  opacity: 0.75;
+  }
+  
+  .navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  opacity: 0.75;
+  }
