@@ -17,7 +17,7 @@
   @import 'bootstrap-sprockets';
   @import 'bootstrap';
   
-  body, .navbar {
+ .navbar, .home-callout {
   background: #a73737;  /* fallback for old browsers */
   background: -webkit-linear-gradient(left, #7a2828, #a73737);
   background: -moz-linear-gradient(left, #7a2828, #a73737);
@@ -27,6 +27,13 @@
     
   .navbar {
   border: none;
+  }
+  
+  .home-callout {
+  color: white;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   }
 
   h1, h2, h3 {
